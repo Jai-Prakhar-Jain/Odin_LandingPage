@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  background-color: #1f2937;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-basis: 450px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.links {
+  color: #f9faf8;
+  display: flex;
+  gap: 10px;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.about div {
+  align-self: flex-start;
+  flex: 1;
+}
+.about img {
+  display: block;
+  flex: 1;
+  height: fit-content;
+  align-self: flex-end;
+}
+.about div button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+#one{
+    padding: 0px 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-size: 36px;
+    Color: #1F2937;
+    font-weight: 900;
+    margin: 48px 0px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 48px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+#one img{
+    height: 125px;
+    width: 125px;
+    border: 2px solid #3882f6;
+    border-radius: 20px;
+}
+#two{
+    padding: 0px 200px;
+    height: 400px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    Color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#two div{
+    width: fit-content;
+    padding: 0;
+}
+.author{
+    align-self: flex-end;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+}
+#three{
+  background-color: #3882f6;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  width:600px ;
+  flex-basis: 150px;
+  align-items: center;
+  margin: 100px 0;
+  padding: 0px 100px;
+  gap: 10px;
+  color: white;
+  border-radius: 20px;
+}
+#three button{
+  margin-left: 100p;
+  background-color: #3882f6;
+  border: 2px solid white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+#three h4
+{
+  font-size: 24px;
+  margin: 0;
+  font-weight: 900;
+}
+#three p
+{
+  font-size: 18px;
+  font-weight: 300;
+}
+.footer{
+  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-basis: 100px;
+  background-color: #1F2937;
+}
